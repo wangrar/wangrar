@@ -5,11 +5,13 @@
  */
 
 body {
-  background: url('https://github.com/wangrar/wangrar/blob/master/images/BG.jpg?raw=true') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+    background-image: url('ttps://github.com/wangrar/wangrar/blob/master/images/BG.png?raw=true');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 85%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bg-dark {
@@ -20,10 +22,10 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-left: 0.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  float:left;
   color: #007bff;
 }
 
