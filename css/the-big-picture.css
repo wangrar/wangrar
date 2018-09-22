@@ -4,55 +4,30 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 
-body {
-  background: url('https://github.com/wangrar/wangrar/blob/master/images/BG.jpg?raw=true') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-
-}
-
-.bg-dark {
-  background-color: #222222 !important;
-}
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 200;
   line-height: 1.2;
   float:left;
-  color: #fafafa;
+  color: #363151;
 }
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.5;
-  color: #212529;
+  color: #363151;
   text-align: left;
-  background-color: #fff;
+  background-color: #f0e7de;
 }
 
-.navbar-brand {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  font-weight: 500;
-  line-height: inherit;
-  white-space: nowrap;
-}
-
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right:1rem;
-        padding-left:.1rem;
-    }
+.photo {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  float:right;
 }
